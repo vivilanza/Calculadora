@@ -1,0 +1,12 @@
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\bin\Debug\net8.0\CalculadoraStirng.deps.json
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\bin\Debug\net8.0\CalculadoraStirng.dll
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\bin\Debug\net8.0\CalculadoraStirng.pdb
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.AssemblyInfoInputs.cache
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.AssemblyInfo.cs
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.csproj.CoreCompileInputs.cache
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.sourcelink.json
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.dll
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\refint\CalculadoraStirng.dll
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\CalculadoraStirng.pdb
+C:\Users\vivia\RiderProjects\CalculadorString\CalculadoraStirng\obj\Debug\net8.0\ref\CalculadoraStirng.dll

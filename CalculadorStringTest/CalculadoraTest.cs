@@ -1,3 +1,5 @@
+using CalculadoraStirng;
+
 namespace CalculadorStringTest;
 
 [TestClass]
