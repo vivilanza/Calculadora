@@ -14,8 +14,14 @@ public class Calculadora
 
         if (SonVariosNumeros(numeros))
         {
-            string[] valores = numeros.Split(ConvertirSeparador()); 
-            return ConvertirStringAInt(valores[0]) + ConvertirStringAInt(valores[1]);
+            string[] valores = numeros.Split(ConvertirSeparador());
+            int suma = 0;
+            foreach (string unValor in valores)
+            {
+                suma += ConvertirStringAInt(unValor);
+            }
+
+            return suma; 
         }
 
         return VALOR_POR_DEFECTO;

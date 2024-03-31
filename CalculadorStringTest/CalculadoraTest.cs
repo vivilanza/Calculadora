@@ -37,7 +37,7 @@ public class CalculadoraTest
     public void SumarMasDeDosNumerosSeparadosPorBarraNTest()
     {
         Calculadora unaCalculadora = new Calculadora () ;
-        Assert.AreEqual (11 , unaCalculadora.Sumar ("1\n3\n7\n1"));
+        Assert.AreEqual (12,unaCalculadora.Sumar ("1\n3\n7\n1"));
     }
     
     [ TestMethod ]
