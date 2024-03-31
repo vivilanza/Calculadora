@@ -6,7 +6,7 @@ public class Calculadora
     private const string Separador = ",";
     public int Sumar(string numeros)
     {
-        numeros = numeros.Replace('\n', ConvertirSeparador());
+        numeros = AjustarEntrada(numeros);
         if (EsSoloUnNumero(numeros) )
         {
             return ConvertirStringAInt(numeros);
@@ -19,6 +19,11 @@ public class Calculadora
         }
 
         return VALOR_POR_DEFECTO;
+    }
+
+    private static string AjustarEntrada(string numeros)
+    {
+        return numeros.Replace('\n', ConvertirSeparador());
     }
 
     private static char ConvertirSeparador()
