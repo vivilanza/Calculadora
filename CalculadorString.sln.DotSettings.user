@@ -5,5 +5,7 @@
     &lt;TestId&gt;MSTest::B6D1236C-D1E0-4AFB-B557-ADEE3A116DE9::net8.0::CalculadorStringTest.CalculadoraTest.SumarStringUnicoNumeroTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::B6D1236C-D1E0-4AFB-B557-ADEE3A116DE9::net8.0::CalculadorStringTest.CalculadoraTest.SumarStringDosNumerosSeparadosPorComaTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::B6D1236C-D1E0-4AFB-B557-ADEE3A116DE9::net8.0::CalculadorStringTest.CalculadoraTest.SumarStringDosNumerosSeparadosPorBarraNTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B6D1236C-D1E0-4AFB-B557-ADEE3A116DE9::net8.0::CalculadorStringTest.CalculadoraTest.SumarMasDeDosNumerosSeparadosPorBarraNTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B6D1236C-D1E0-4AFB-B557-ADEE3A116DE9::net8.0::CalculadorStringTest.CalculadoraTest.SumarMasDeDosNumerosSeparadosPorComaTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -32,5 +32,20 @@ public class CalculadoraTest
         Calculadora unaCalculadora = new Calculadora();
         Assert.AreEqual(5,unaCalculadora.Sumar("2\n3"));
     }
+
+    [TestMethod]
+    public void SumarMasDeDosNumerosSeparadosPorBarraNTest()
+    {
+        Calculadora unaCalculadora = new Calculadora () ;
+        Assert.AreEqual (11 , unaCalculadora.Sumar ("1\n3\n7\n1"));
+    }
+    
+    [ TestMethod ]
+    public void SumarMasDeDosNumerosSeparadosPorComaTest ()
+    {
+        Calculadora unaCalculadora = new Calculadora () ;
+        Assert . AreEqual (18 , unaCalculadora . Sumar ("3 ,4 ,2 ,5 ,1 ,1 ,1 ,1") ) ;
+    }
+
         
 }
