@@ -14,17 +14,22 @@ public class Calculadora
 
         if (SonVariosNumeros(numeros))
         {
-            string[] valores = numeros.Split(ConvertirSeparador());
-            int suma = 0;
-            foreach (string unValor in valores)
-            {
-                suma += ConvertirStringAInt(unValor);
-            }
-
-            return suma; 
+            return CalcularSumaDeVariosNumeros(numeros);
         }
 
         return VALOR_POR_DEFECTO;
+    }
+
+    private static int CalcularSumaDeVariosNumeros(string numeros)
+    {
+        string[] valores = numeros.Split(ConvertirSeparador());
+        int suma = 0;
+        foreach (string unValor in valores)
+        {
+            suma += ConvertirStringAInt(unValor);
+        }
+
+        return suma;
     }
 
     private static string AjustarEntrada(string numeros)
