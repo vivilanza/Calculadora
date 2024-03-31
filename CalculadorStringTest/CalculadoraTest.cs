@@ -46,6 +46,13 @@ public class CalculadoraTest
         Calculadora unaCalculadora = new Calculadora () ;
         Assert . AreEqual (18 , unaCalculadora . Sumar ("3 ,4 ,2 ,5 ,1 ,1 ,1 ,1") ) ;
     }
+    [ TestMethod ]
+    [ ExpectedException ( typeof ( ExcepcionNumeroNegativo ) ) ]
+    public void SumarConNegativosTest ()
+    {
+        Calculadora unaCalculadora = new Calculadora () ;
+        unaCalculadora . Sumar ("1 ,2 ,3 , -1 ,2 ,3") ;
+    }
 
         
 }
