@@ -3,6 +3,7 @@
 public class Calculadora
 {
     private const int VALOR_POR_DEFECTO = 0; //Snake_case se usa solo para las constantes separar con una barra baja
+    private const char Separador = ',';
     public int Sumar(string numeros)
     {
         if (EsSoloUnNumero(numeros) )
@@ -10,14 +11,21 @@ public class Calculadora
             return ConvertirStringAInt(numeros);
         }
 
-        if (numeros.Contains(","))
+        if (ContieneSeparador(numeros))
         {
-            string[] valores = numeros.Split(','); 
+            string[] valores = numeros.Split(Separador); 
             return ConvertirStringAInt(valores[0]) + ConvertirStringAInt(valores[1]);
         }
-        
+
         return VALOR_POR_DEFECTO;
     }
+
+   
+    private static bool ContieneSeparador(string numeros)
+    {
+        return numeros.Contains(Separador);
+    }
+    
 
     private static int ConvertirStringAInt(string numeros)
     {

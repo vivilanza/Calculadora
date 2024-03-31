@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadoraStirng")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7934b43882f696472c89488efe7516d3515bbc61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73bbcd9753f21d1ec30eceb1f4fff0bb8efaa689")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadoraStirng")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadoraStirng")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

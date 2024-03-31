@@ -25,4 +25,12 @@ public class CalculadoraTest
         Calculadora unaCalculadora = new Calculadora();
         Assert.AreEqual(3,unaCalculadora.Sumar("1,2"));
     }
+
+    [TestMethod]
+    public void SumarStringDosNumerosSeparadosPorBarraNTest()
+    {
+        Calculadora unaCalculadora = new Calculadora();
+        Assert.AreEqual(5,unaCalculadora.Sumar("2\n3"));
+    }
+        
 }
