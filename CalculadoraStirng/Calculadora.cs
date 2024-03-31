@@ -9,6 +9,12 @@ public class Calculadora
         {
             return ConvertirStringAInt(numeros);
         }
+
+        if (numeros.Contains(","))
+        {
+            string[] valores = numeros.Split(','); 
+            return ConvertirStringAInt(valores[0]) + ConvertirStringAInt(valores[1]);
+        }
         
         return VALOR_POR_DEFECTO;
     }
