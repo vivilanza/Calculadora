@@ -18,6 +18,11 @@ public class CalculadoraTest
         Calculadora unaCalculadora = new Calculadora();
         Assert.AreEqual(1,unaCalculadora.Sumar("1"));
     }
-    
-    
+   
+    [TestMethod]
+    public void SumarStringDosNumerosSeparadosPorComaTest()
+    {
+        Calculadora unaCalculadora = new Calculadora();
+        Assert.AreEqual(3,unaCalculadora.Sumar("1,2"));
+    }
 }
