@@ -9,8 +9,7 @@ public class CalculadoraTest
         Calculadora unaCalculadora = new Calculadora();
         Assert.AreEqual(0,unaCalculadora.Sumar(""));
     }
-    [TestMethod]
-    public void
+   
     
     
 }
